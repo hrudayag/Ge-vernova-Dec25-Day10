@@ -51,6 +51,10 @@ public class MyBinarySearchTree<K extends Comparable<K>> {
             bst2.add(n);
         System.out.println("Output for UC2:");
         System.out.println("Total Nodes: " + bst2.size());
+
+        //uc3
+        System.out.println("Output for UC3:");
+        System.out.println("Is 63 present? " + bst2.search(63));
     }
 
 }
