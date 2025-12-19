@@ -36,8 +36,8 @@ public class MyBinarySearchTree<K extends Comparable<K>> {
         else
             return searchRecursively(node.right, key);
     }
-    //uc1
     public static void main(String[] args) {
+        //uc1
         MyBinarySearchTree<Integer> bst1 = new MyBinarySearchTree<>();
         bst1.add(56);
         bst1.add(30);
