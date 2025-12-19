@@ -38,11 +38,19 @@ public class MyBinarySearchTree<K extends Comparable<K>> {
     }
     //uc1
     public static void main(String[] args) {
-        MyBinarySearchTree<Integer> bst = new MyBinarySearchTree<>();
-        bst.add(56);
-        bst.add(30);
-        bst.add(70);
-        System.out.println("Size: " + bst.size());
+        MyBinarySearchTree<Integer> bst1 = new MyBinarySearchTree<>();
+        bst1.add(56);
+        bst1.add(30);
+        bst1.add(70);
+        System.out.println("Output for UC1:");
+        System.out.println("Size: " + bst1.size());
+        //uc2
+        MyBinarySearchTree<Integer> bst2 = new MyBinarySearchTree<>();
+        int[] nodes = {56, 30, 70, 22, 40, 60, 95, 11, 65, 3, 16, 63, 67};
+        for (int n : nodes)
+            bst2.add(n);
+        System.out.println("Output for UC2:");
+        System.out.println("Total Nodes: " + bst2.size());
     }
 
 }
