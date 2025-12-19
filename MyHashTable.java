@@ -60,5 +60,9 @@ public class MyHashTable<K, V> {
         }
         System.out.println("\nUC2 Output:");
         table2.display();
+        //uc3
+        table2.remove("avoidable");
+        System.out.println("\nUC3 Output:");
+        table2.display();
     }
 }
